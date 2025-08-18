@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "langgaph-agent-template"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+beautifulsoup4 = "*"
+langchain-community = "*"
+tiktoken = "*"
+langchainhub = "*"
+langchain = "*"
+langgraph = "*"
+tavily-python = "*"
+langchain-openai = "*"
+python-dotenv = "*"
+black = "*"
+isort = "*"
+pytest = "*"
+langchain-chroma = "*"
+langchain-tavily = "^0.1.5"
+chromadb = "^1.0.17"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
