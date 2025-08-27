@@ -7,10 +7,10 @@ from langchain_openai import OpenAIEmbeddings
 load_dotenv()
 
 urls = [
-    "https://lilianweng.github.io/posts/2023-06-23-agent/",
-    "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
-    "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
-]
+        "https://theportal.group/optics/",
+        "https://theportal.group/35-superposition/",
+        "https://theportal.group/30-the-awakening/",
+    ]
 
 docs = [WebBaseLoader(url).load() for url in urls]
 docs_list = [item for sublist in docs for item in sublist]
